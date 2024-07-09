@@ -2,7 +2,7 @@
 import { getImage } from "astro:assets";
 import { OG, SEO, SITE } from "@data/constants";
 import faviconSvgSrc from "@images/icon.svg";
-import faviconSrc from "@images/icon.png";
+import faviconSrc from "@images/content/teamPhotos/moonBuggyLogoFixed.webp";
 
 // Default properties for the Meta component. These values are used if props are not provided.
 // 'meta' sets a default description meta tag to describe the page content.
@@ -63,7 +63,7 @@ const alternateLanguageLinks: string = Object.entries(languages)
 // Generate and optimize the favicon images
 const faviconSvg = await getImage({
   src: faviconSvgSrc,
-  format: "svg",
+  format: "webp",
 });
 
 const appleTouchIcon = await getImage({
@@ -127,4 +127,4 @@ const appleTouchIcon = await getImage({
 <link href={appleTouchIcon.src} rel="apple-touch-icon" />
 <link href={appleTouchIcon.src} rel="shortcut icon" />
 <!-- Set theme color -->
-<meta name="theme-color" content="#facc15" />
+<meta name="theme-color" content="#000000" />

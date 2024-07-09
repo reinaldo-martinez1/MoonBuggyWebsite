@@ -9,8 +9,6 @@ import FeaturesNavs from "@components/sections/features/FeaturesNavs.astro";
 import TestimonialsSection from "@components/sections/testimonials/TestimonialsSection.astro";
 import PricingSection from "@components/sections/pricing/PricingSection.astro";
 import FAQ from "@components/sections/FAQ.astro";
-import AnnouncementBanner from "@components/ui/banners/AnnouncementBanner.astro";
-import heroImage from "@images/hero-image.avif";
 import faqs from "@data/faqs.json";
 import features from "@data/features.json";
 import pricing from "@data/pricing.json";
@@ -19,12 +17,9 @@ import construction from "@images/construction-image.avif";
 import tools from "@images/automated-tools.avif";
 import dashboard from "@images/dashboard-image.avif";
 
-const avatarSrcs: Array<string> = [
-  "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80",
-  "https://images.unsplash.com/photo-1531927557220-a9e23c1e4794?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80",
-  "https://images.unsplash.com/photo-1541101767792-f9b2b1c4f127?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&&auto=format&fit=facearea&facepad=3&w=300&h=300&q=80",
-  "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80",
-];
+//Photos from our Team
+import groupPhoto from "@images/content/teamPhotos/groupPhoto.webp";
+import moonbuggylogo from "@images/content/teamPhotos/moonBuggyLogoFixed.webp";
 ---
 
 <MainLayout>
@@ -37,31 +32,30 @@ const avatarSrcs: Array<string> = [
   /> -->
 
   <HeroSection
-    title=`MoonBuggy\nEngineering Team`
-    subTitle="University of Puerto Rico at Mayagüez"
-    primaryBtn="About Us"
-    primaryBtnURL="/services"
+    title=`<span class="text-greenColegio dark:text-greenTeam">MoonBuggy</span>\nEngineering Team`
+    subTitle='University of Puerto Rico at Mayagüez'
+    primaryBtn="About"
+    primaryBtnURL="/about"
     secondaryBtn="Contact Us"
     secondaryBtnURL="/contact"
     withReview={false}
-    avatars={avatarSrcs}
     rating=`<span class="font-bold">4.8</span> / 5`
     starCount={4}
     reviews=`From Over <span class="font-bold">12.8k</span> Reviews`
-    src={heroImage}
+    src={moonbuggylogo}
     alt="Stack of ScrewFast product boxes containing assorted hardware tools"
   />
 
   <ClientsSection
-    title="Trusted by Industry Leaders"
-    subTitle="Experience the reliability chosen by industry giants."
+    title="Our Valued Sponsors"
+    subTitle="Together, we achieve more!"
   />
 
   <FeaturesGeneral
     title="Meeting Industry Demands"
     subTitle="At ScrewFast, we tackle the unique challenges encountered in the hardware and construction sectors. From cutting-edge tools to expert services, we're dedicated to helping you overcome obstacles and achieve your goals."
-    src={heroImage}
-    alt="ScrewFast products in floating boxes"
+    src={groupPhoto}
+    alt="Team Group Photo"
     features={features}
   />
 
@@ -144,3 +138,4 @@ const avatarSrcs: Array<string> = [
     url="https://github.com/mearashadowfax/ScrewFast"
   />
 </MainLayout>
+

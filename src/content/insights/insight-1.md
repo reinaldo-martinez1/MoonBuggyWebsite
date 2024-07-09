@@ -1,8 +1,9 @@
 ---
-title: "The Future of Construction Technology"
+title: "Chevron Corporation"
 description: "Explore ScrewFast's pioneering role in revolutionizing construction through advanced technology and innovative solutions."
-cardImage: "@/images/insights/insight-1.avif"
-cardImageAlt: "Top view mechanical tools arrangement"
+cardImage: "@images/content/teamPhotos/chevron.webp"
+cardImageAlt: "Chevron Logo"
+link: "https://www.chevron.com"
 ---
 
 In the world of construction, where innovation meets practicality, ScrewFast stands as a beacon of pioneering advancements. For years, this company has been at the forefront of revolutionizing construction through its unwavering commitment to advanced technology and innovative solutions. From skyscrapers to bridges, ScrewFast has left an indelible mark on the industry, shaping the future of construction in ways once thought unimaginable.

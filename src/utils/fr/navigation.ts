@@ -28,11 +28,13 @@ const footerLinks = [
 ];
 
 const socialLinks = {
-  facebook: "#",
-  x: "#",
+  facebook: "https://www.facebook.com/UPRMMET/",
+  x: "https://twitter.com/uprmmet",
   github: "https://github.com/mearashadowfax/ScrewFast",
   google: "#",
   slack: "#",
+  instagram: "https://www.instagram.com",
+  linkedin: "https://www.linkedin.com/company/uprm-moonbuggy-engineering-team",
 };
 
 export default {

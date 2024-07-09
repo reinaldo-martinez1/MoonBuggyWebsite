@@ -1,8 +1,8 @@
 ---
-title: "The Impact of Sustainable Practices"
+title: "Fit College\nEscuela de Soldadura"
 description: "Discover how ScrewFast is leading the charge in promoting sustainability within the construction industry"
-cardImage: "@/images/insights/insight-3.avif"
-cardImageAlt: "Top view mechanical tools arrangement"
+cardImage: "@/images/content/teamPhotos/fitcollege.webp"
+cardImageAlt: "Fit College Logo"
 ---
 
 The construction industry casts a long shadow.  While it provides the essential framework for our lives, its environmental impact is undeniable. From resource depletion and pollution to energy consumption and waste generation, traditional construction practices take a toll on our planet. But a revolution is brewing, and at the forefront is ScrewFast, a company demonstrably changing the game with its commitment to sustainable practices.

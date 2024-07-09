@@ -13,13 +13,12 @@ interface Props {
 
 <!-- The anchor tag is the root container for the "Insight" card. It links to the insight detail page. -->
 <a
-  class="group outline-none rounded-xl ring-zinc-500 transition duration-300 focus-visible:ring dark:ring-zinc-200 dark:focus:outline-none"
-  href={`/insights/${insightEntry.slug}/`}
+  
 >
   <!-- This is the container for the insight's cover image. -->
   <div class="relative overflow-hidden rounded-xl pt-[50%] sm:pt-[70%]">
     <Image
-      class="absolute start-0 top-0 size-full rounded-xl object-cover transition duration-500 ease-in-out group-hover:scale-105"
+      class="absolute start-0 top-0 size-full rounded-xl object-contain transition duration-500 ease-in-out group-hover:scale-105"
       src={insightEntry.data.cardImage}
       alt={insightEntry.data.cardImageAlt}
       draggable={"false"}
@@ -30,7 +29,7 @@ interface Props {
   <div class="mt-7">
     <!-- The title of the insight -->
     <h3
-      class="text-xl font-bold text-neutral-800 group-hover:text-neutral-600 dark:text-neutral-200 dark:group-hover:text-neutral-400"
+      class="text-xl text-center font-bold text-neutral-800 group-hover:text-neutral-600 dark:text-neutral-200 dark:group-hover:text-neutral-400"
     >
       {insightEntry.data.title}
     </h3>
@@ -38,12 +37,26 @@ interface Props {
     <p class="mt-3 text-neutral-600 dark:text-neutral-400">
       {insightEntry.data.description}
     </p>
-    <!-- The "Read More" hyperlink going to the full insight. With an arrow icon -->
-    <p
-      class="mt-5 inline-flex items-center gap-x-1 font-medium text-orange-400 decoration-2 group-hover:underline dark:text-orange-300"
-    >
-      Read more
-      <Icon name="arrowRightStatic" />
-    </p>
   </div>
 </a>
+
+<!--This is for the read more and it goes inside the insight div -->
+
+<!-- The "Read More" hyperlink going to the full insight. With an arrow icon 
+    <p
+    class="mt-5 inline-flex items-center gap-x-1 font-medium text-orange-400 decoration-2 group-hover:underline dark:text-orange-300"
+  >
+    Read more
+    <Icon name="arrowRightStatic" />
+  </p> 
+  
+  for more content in insight put the following code in <a>
+
+  class="group outline-none rounded-xl ring-zinc-500 transition duration-300 focus-visible:ring dark:ring-zinc-200 dark:focus:outline-none"
+  href={`/insights/${insightEntry.slug}/`}
+  
+  
+  
+  
+  
+  -->
