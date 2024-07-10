@@ -31,7 +31,7 @@ export const GET: APIRoute = async () => {
           src: favicon.src,
           width: size,
           height: size,
-          format: "png",
+          format: "webp",
         });
         return {
           src: image.src,
