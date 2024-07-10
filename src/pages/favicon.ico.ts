@@ -3,7 +3,7 @@ import sharp from "sharp";
 import ico from "sharp-ico";
 import path from "node:path";
 
-const faviconSrc = path.resolve("src/images/content/teamPhotos/moonBuggyLogoFixed.webp");
+const faviconSrc = path.resolve("src/images/favicon.png");
 
 export const GET: APIRoute = async () => {
 
