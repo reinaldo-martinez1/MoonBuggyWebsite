@@ -4,7 +4,7 @@ export const SITE = {
   title: "MoonBuggy Engineering Team",
   tagline: "MoonBuggy Engineering Team",
   description: "Founded in 2012, our team is a dynamic and diverse group of students from various academic disciplines united by a passion for innovation and exploration. We bring together talents from engineering, business administration and other majors to design, build, and test human-powered rovers. Our collaborative spirit and multidisciplinary approach drive us to excel in the NASA Human Exploration Rover Challenge, pushing the boundaries of technology and teamwork as we prepare for the future of space exploration.",
-  description_short: "",
+  description_short: "Team dedicated to compete in NASA HERC",
   url: "https://moon-buggy-website.vercel.app/",
   author: "Tasktool Department",
 };
