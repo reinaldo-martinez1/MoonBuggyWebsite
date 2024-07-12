@@ -22,6 +22,8 @@
 
 ![alt text](../../images/content/teamPhotos/ChevronLogoSmall.webp)
 
+
+
 ![alt text](../../images/content/teamPhotos/moonBuggyLogoFixed.webp)
 
 ![alt text](../../images/content/teamPhotos/nasa.webp)
@@ -31,3 +33,5 @@
 ![alt text](../../images/content/teamPhotos/nasaLogoSolo.webp)
 
 ![alt text](../../images/content/teamPhotos/moonBuggyLogoFixed.png)
+
+![alt text](../../images/content/teamPhotos/moonBuggyLogo.webp)
