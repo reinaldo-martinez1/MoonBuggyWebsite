@@ -1,8 +1,8 @@
 ---
-title: "MoonBuggy"
-description: "Task Tool Department"
+title: "Task Tool Department"
+description: "MoonBuggy Engineering Team"
 main:
-  id: 3
+  id: 7
   content: |
     Meet the SF-BN B203 – your reliable companion for professional-grade fastening. This comprehensive box set comes with a versatile selection of tap bolts and nuts, meticulously crafted to provide the strongest hold for your construction and assembly projects.
   imgCard: "@/images/product-image-3.avif"

@@ -1,6 +1,6 @@
 ---
-title: "MoonBuggy"
-description: "Steering Department"
+title: "Steering Department"
+description: "MoonBuggy Engineering Team"
 main:
   id: 5
   content: |

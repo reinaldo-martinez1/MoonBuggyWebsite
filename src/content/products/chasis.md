@@ -1,8 +1,8 @@
 ---
-title: "MoonBuggy"
-description: "Chasis Department"
+title: "Chasis Department"
+description: "MoonBuggy Engineering Team"
 main:
-  id: 2
+  id: 3
   content: |
     Introducing the SF-TB T845 – your go-to solution for precision fastening in machinery and equipment. This comprehensive set of machine screws is meticulously crafted to meet the stringent demands of industrial applications, ensuring secure and reliable fastening.
   imgCard: "@/images/product-image-1.avif"

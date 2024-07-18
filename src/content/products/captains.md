@@ -1,6 +1,6 @@
 ---
-title: "MoonBuggy"
-description: "Captains"
+title: "Captains"
+description: "MoonBuggy Engineering Team"
 main:
   id: 1
   content: |

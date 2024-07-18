@@ -1,8 +1,8 @@
 ---
-title: "MoonBuggy"
-description: "Wheels Department"
+title: "Wheels Department"
+description: "MoonBuggy Engineering Team"
 main:
-  id: 7
+  id: 8
   content: |
     Introducing the SF-FN F303 Hex Bolts – the perfect choice for heavy-duty fastening applications. Crafted with precision and durability in mind, these hex bolts provide the strength and reliability you need for your toughest projects.
   imgCard: "@/images/product-image-4.avif"
