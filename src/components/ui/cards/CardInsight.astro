@@ -12,7 +12,8 @@ interface Props {
 ---
 
 <!-- The anchor tag is the root container for the "Insight" card. It links to the insight detail page. -->
-<a
+<a class="group outline-none rounded-xl ring-zinc-500 transition duration-300 focus-visible:ring dark:ring-zinc-200 dark:focus:outline-none"
+href={insightEntry.data.link}
   
 >
   <!-- This is the container for the insight's cover image. -->
@@ -37,6 +38,14 @@ interface Props {
     <p class="mt-3 text-neutral-600 dark:text-neutral-400">
       {insightEntry.data.description}
     </p>
+
+    <p
+    class="mt-5 inline-flex items-center gap-x-1 font-medium text-greenColegio decoration-2 group-hover:underline dark:text-greenTeam"
+  >
+    Company Website
+    <Icon name="arrowRightStatic" />
+  </p> 
+  
   </div>
 </a>
 
