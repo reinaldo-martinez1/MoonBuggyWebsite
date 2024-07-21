@@ -1,7 +1,7 @@
 import type { APIRoute, ImageMetadata } from "astro";
 import { getImage } from "astro:assets";
-import icon from "@images/favicon.png";
-import maskableIcon from "@images/favicon.png";
+import icon from "src/images/content/teamPhotos/moonBuggyLogoFixed.webp";
+import maskableIcon from "src/images/content/teamPhotos/moonBuggyLogoFixed.webp";
 
 interface Favicon {
   purpose: 'any' | 'maskable' | 'monochrome';
