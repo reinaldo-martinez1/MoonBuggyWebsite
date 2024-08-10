@@ -1,0 +1,107 @@
+---
+
+---
+
+<script>
+  import byvCountdown from "@/assets/scripts/countDownjs";
+  
+  
+    new byvCountdown(".countdown__cd")
+</script>
+
+<style>#byv-countdown-block_669ebf24d2800{--block-background-color: #213775;}
+  #byv-countdown-block_669ebf24d2800 .wp-element-button:hover{background-color: #fff!important;
+  color: #da1333!important;}
+</style>
+<style>
+
+
+:root{
+  --wp--preset--color--primary:#337137;
+}  
+</style>
+<style>
+  .block-byv-countdown{padding-bottom:var(--wp--preset--spacing--60);padding-top:var(--wp--preset--spacing--60);}
+  
+  
+  .onCountdownFinish{display:none!important;} #editor .onCountdownFinish{display:initial!important;}
+  
+  .countdown{display:flex;gap:var(--wp--preset--spacing--30);}
+  .countdown--center{text-align:center;flex-direction:column-reverse;}
+  .countdown--bottom{text-align:center;flex-direction:column;}
+  .countdown--left{text-align:left;align-items:center;flex-direction:row-reverse;}
+  .countdown--right{text-align:right;align-items:center;flex-direction:row;}
+  
+  .countdown__cd{flex:1;max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;width: 100%;}
+  .countdown__content{flex:1;}
+  
+  
+  .countdown__countdown{display:flex;gap:10px;text-align:center;justify-content:space-around;}
+  .countdown__unit{color:var(--wp--preset--color--heading);flex:25% 0 0;display:flex;margin:0;min-width:80px;position:relative;font-family:var(--wp--custom--font--heading);font-weight:var(--wp--custom--font--heading-weight);}
+  .countdown__unit:before{content:'';float:left;padding-top:100%;}
+  .countdown__unit span{display:block;line-height:100%;}
+  .countdown__unit .number{color:var(--wp--preset--color--primary);font-size:clamp(24px, 3vw, 48px);}
+  .countdown__unit .number + span{font-size:clamp(12px, 1.5vw, 18px);}
+  
+  .mode-dark .countdown__unit .number{color:#fff;}
+  
+  .countdown__inner{margin:auto;}
+  
+  .gauge{position:absolute;top:0;left:0;right:0;bottom:0;}
+  .gauge__fill{transition:1s all linear;}
+  .gauge__background{opacity:0.1;}
+  .mode-dark .gauge__background{opacity:0.25;}
+  
+  .block-byv-countdown:not(.visible) .gauge__fill{stroke-dasharray: 0, 263.894 !important;}
+  
+  @media (max-width: 767px) {
+    .countdown--left,
+    .countdown--right{text-align:center;display:block;}
+    .countdown__content .button-set{justify-content:center;}
+  }
+  
+    </style>
+    <div class="countdown__cd">
+      <div class="countdown__countdown" data-date="April 10, 2025 8:00 am" data-offset="-4">
+        
+              <div class="countdown__unit countdown__unit--days">
+                <div class="countdown__inner">
+                  <svg class="gauge gauge--days" viewBox="0 0 100 100">
+                    <circle class="gauge__background" cx="50" cy="50" fill="transparent" r="42" stroke="currentColor" stroke-width="8"></circle>
+                    <circle class="gauge__fill" cx="50" cy="50" fill="transparent" r="42" stroke="var(--wp--preset--color--primary)" stroke-width="8" stroke-dasharray="0 1000" transform="rotate(-90,50,50)" stroke-linecap="round" style="stroke-dasharray: 62.9007, 263.894;"></circle>
+                  </svg>
+                  <span class="number number--days">87</span>
+                  <span>days</span>
+                </div>
+              </div>
+              <div class="countdown__unit countdown__unit--hours">
+                <div class="countdown__inner">
+                  <svg class="gauge gauge--hours" viewBox="0 0 100 100">
+                    <circle class="gauge__background" cx="50" cy="50" fill="transparent" r="42" stroke="currentColor" stroke-width="8"></circle>
+                    <circle class="gauge__fill" cx="50" cy="50" fill="transparent" r="42" stroke="var(--wp--preset--color--primary)" stroke-width="8" stroke-dasharray="0 1000" transform="rotate(-90,50,50)" stroke-linecap="round" style="stroke-dasharray: 54.9779, 263.894;"></circle>
+                  </svg>
+                  <span class="number number--hours">5</span>
+                  <span>hours</span>
+                </div>
+              </div>
+              <div class="countdown__unit countdown__unit--minutes">
+                <div class="countdown__inner">
+                  <svg class="gauge gauge--minutes" viewBox="0 0 100 100">
+                    <circle class="gauge__background" cx="50" cy="50" fill="transparent" r="42" stroke="currentColor" stroke-width="8"></circle>
+                    <circle class="gauge__fill" cx="50" cy="50" fill="transparent" r="42" stroke="var(--wp--preset--color--primary)" stroke-width="8" stroke-dasharray="0 1000" transform="rotate(-90,50,50)" stroke-linecap="round" style="stroke-dasharray: 8.79646, 263.894;"></circle>
+                  </svg>
+                  <span class="number number--minutes">2</span>
+                  <span>minutes</span>
+                </div>
+              </div>
+              <div class="countdown__unit countdown__unit--seconds">
+                <div class="countdown__inner">
+                  <svg class="gauge gauge--seconds" viewBox="0 0 100 100">
+                    <circle class="gauge__background" cx="50" cy="50" fill="transparent" r="42" stroke="currentColor" stroke-width="8"></circle>
+                    <circle class="gauge__fill" cx="50" cy="50" fill="transparent" r="42" stroke="var(--wp--preset--color--primary)" stroke-width="8" stroke-dasharray="0 1000" transform="rotate(-90,50,50)" stroke-linecap="round" style="stroke-dasharray: 215.513, 263.894;"></circle>
+                  </svg>
+                  <span class="number number--seconds">49</span>
+                  <span>seconds</span>
+                </div>
+              </div>  </div>
+    </div>
