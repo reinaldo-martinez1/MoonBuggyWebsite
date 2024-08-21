@@ -23,17 +23,18 @@ import moonbuggylogo from "@images/content/teamPhotos/moonBuggyLogo.webp";
 
 import CountDown from "@/components/countDown.astro";
 import CountDownSection from "@/components/ui/blocks/countDownSection.astro";
+import AnnouncementBanner from "@/components/ui/banners/AnnouncementBanner.astro";
 ---
 
 
 <MainLayout>
   
   <!-- For announcements -->
-  <!-- <AnnouncementBanner
+  <AnnouncementBanner
     btnId="dismiss-button"
-    btnTitle="Explore ScrewFast on GitHub"
-    url="https://github.com/mearashadowfax/ScrewFast"
-  /> -->
+    btnTitle="Donate to the MoonBuggy Team"
+    url="https://www.gofundme.com"
+  />
   <HeroSection
     title=`<span class="text-greenColegio dark:text-greenTeam">MoonBuggy</span>\nEngineering Team`
     subTitle='University of Puerto Rico at Mayagüez'
@@ -54,7 +55,7 @@ import CountDownSection from "@/components/ui/blocks/countDownSection.astro";
 
   <CountDownSection
   title = "Countdown to Compete in NASA HERC"
-  subTitle="The first day of competition is going to be on April 10, 2025 at NASA U.S. Space & Rocket Center in Hunstville, Alabama"
+  subTitle="The first day of competition is going to be on April 10, 2025 at NASA U.S. Space & Rocket Center in Hunstville, Alabama."
   ></CountDownSection>
 
 
