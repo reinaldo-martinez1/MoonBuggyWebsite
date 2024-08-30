@@ -35,3 +35,11 @@
 ![alt text](../../images/content/teamPhotos/moonBuggyLogoFixed.png)
 
 ![alt text](../../images/content/teamPhotos/moonBuggyLogo.webp)
+
+![alt text](../../images/content/teamPhotos/spaceCenterLogo.webp)
+
+![alt text](../../images/content/teamPhotos/teamRunning.webp)
+
+![alt text](../../images/content/teamPhotos/teamPhotoCompetition.webp)
+
+![alt text](../../images/content/teamPhotos/contactPhoto.webp)

@@ -35,7 +35,10 @@ export default {
       lightGrayTeam: "#c1c1c1",
       superLightGrayTeam: "#ebebeb",
       greenTeam: "#88c677",
-      greenColegio: "#337137"
+      greenColegio: "#337137",
+      darkbronze: "#906323",
+      bronze: "#B87333",
+      silver: "#C0C0C0"
     },
     extend: {},
   },

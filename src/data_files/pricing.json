@@ -1,38 +1,51 @@
 {
-  "title": "Simple, Transparent Pricing",
-  "subTitle": "Boost efficiency with ScrewFast's clear, value-driven plans.",
+  "title": "Sponsorship Packages",
+  "subTitle": "Your sponsorship will assist us in securing the necessary resources for the design, manufacturing, testing, and optimization of a human-powered lunar rover, as well as support our community outreach efforts in STEM education.",
   "badge": "Best value",
-  "thirdOption": "Enterprise Solutions?",
-  "btnText": "Get a Custom Quote",
+  "thirdOption": "Are you interested in supporting our team?",
+  "btnText": "Contact our Captains",
 
-  "starterKit": {
-    "name": "Starter Kit",
-    "description": "Best option for DIY projects",
-    "price": "$49",
-    "cents": ".00",
-    "billingFrequency": "USD / monthly",
+  "bronzePackage": {
+    "name": "Bronze Package",
+    "description": "Best for large scale uses",
+    "price": "$1 to $499",
+    "cents": "",
+    "billingFrequency": "USD",
     "features": [
-      "Key hardware tools",
-      "Access to guides & tutorials",
-      "Standard support"
+      "Social Media Promotion",
+      "STEM Engagement Activities"
     ],
-    "purchaseBtnTitle": "Get the Starter Kit",
+    "purchaseBtnTitle": "Get the Bronze Package",
     "purchaseLink": "#"
   },
 
-  "professionalToolbox": {
-    "name": "Professional Toolbox",
-    "description": "Best for large scale uses",
-    "price": "$89",
-    "cents": ".00",
-    "billingFrequency": "USD / monthly",
+  "silverPackage": {
+    "name": "Silver Package",
+    "description": "Best option for DIY projects",
+    "price": "$500 to $1499",
+    "cents": "",
+    "billingFrequency": "USD",
     "features": [
-      "Premium tool selection",
-      "Priority support",
-      "Exclusive content & deals",
-      "Bulk order discounts"
+      "Everything on Bronze Package",
+      "Sponsor Logo on Website and Rover",
+      "Logo on Manufacturing T-Shirt"
     ],
-    "purchaseBtnTitle": "Get the Professional Toolbox",
+    "purchaseBtnTitle": "Get the Silver Package",
+    "purchaseLink": "#"
+  },
+
+  "goldPackage": {
+    "name": "Gold Package",
+    "description": "Best for large scale uses",
+    "price": "$1500+",
+    "cents": "",
+    "billingFrequency": "USD",
+    "features": [
+      "Everything on Silver Package",
+      "Sponsor Logo on Team Polo",
+      "Logo on UPRM’s Center of Investigation and Development Workshop"
+    ],
+    "purchaseBtnTitle": "Get the Gold Package",
     "purchaseLink": "#"
   }
 }

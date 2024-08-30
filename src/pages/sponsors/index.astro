@@ -7,6 +7,7 @@ import CardInsight from "@components/ui/cards/CardInsight.astro";
 import { getCollection } from "astro:content";
 import type { CollectionEntry } from "astro:content";
 import { SITE } from "@data/constants";
+import AnnouncementBanner from "@/components/ui/banners/AnnouncementBanner.astro";
 
 // Get all blogs post in English and sort them based on publish date
 
@@ -99,4 +100,9 @@ const pageTitle: string = `Sponsors | ${SITE.title}`;
       }
     </div>
   </section>
+  <AnnouncementBanner
+    btnId="dismiss-button"
+    btnTitle="Donate to the MoonBuggy Team"
+    url="https://www.gofundme.com"
+  />
 </MainLayout>
