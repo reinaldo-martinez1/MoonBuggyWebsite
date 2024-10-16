@@ -1,5 +1,13 @@
 /** @type {import('tailwindcss').Config} */
 import colors from 'tailwindcss/colors';
+/**
+ * The following code defines several color constants to be used
+ * throughout the website. Team-specific colors have been added to
+ * align with the team's logo and theme. The existing colors in the template
+ * were retained to avoid potential errors or conflicts within the code.
+ * 
+*/
+
 export default {
   content: [
     "./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}",
@@ -31,6 +39,7 @@ export default {
       }, // Primary colors, used mainly for links, buttons and svg icons
       red: colors.red, // Used for bookmark icon
       zinc: colors.zinc, // Used mainly for box-shadow
+      //Team colors:
       darkGrayTeam: "#5a5a59",
       lightGrayTeam: "#c1c1c1",
       superLightGrayTeam: "#ebebeb",

@@ -1,3 +1,9 @@
+/**
+ * The following code defines constants related to the website's structure.
+ * It manages the navegation bar links and includes links for the footer, such
+ * as the team's social media platforms and other relevant website sections.
+ */
+
 // An array of links for navigation bar
 const navBarLinks = [
   { name: "Home", url: "/" },
